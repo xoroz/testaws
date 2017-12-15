@@ -15,7 +15,7 @@ while($tbl = mysql_fetch_array($result)) {
   #echo $tbl[0]."<br />\n";
 }
 if (!$tblCnt) {
-  echo "There are no tables<br />\n";
+  echo "There are no tables TEST OK<br />\n";
 } else {
   echo "There are $tblCnt tables<br />\n";
 }
